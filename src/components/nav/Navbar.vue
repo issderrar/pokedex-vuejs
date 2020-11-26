@@ -32,13 +32,13 @@
         </div>
         <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
           <div class="flex-shrink-0 justify-self-start">
-            <span class="text-white">Pokedex</span>
+            <span class="text-white">Pokemon Squad Tester</span>
           </div>
           <div class="block sm:ml-6">
             <div class="flex space-x-4">
               <router-link to="/"
                            class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700">
-                Home
+                Squad Tester
               </router-link>
               <router-link to="/team-creation"
                            class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700">

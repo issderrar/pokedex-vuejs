@@ -4,6 +4,7 @@
 </template>
 
 <script>
+document.title = "Pokemon Squad Tester"
 
 import Navbar from "@/components/nav/Navbar";
 
