@@ -3,7 +3,7 @@
   <selection-box :selection="$store.state.selection"
                  @reset-selection="selection = []"
   />
-    <div class="p-4">
+    <div class="p-4 flex justify-center">
     <team-weakness-widget/>
     </div>
   </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="border bg-white rounded p-3 w-3/5">
+  <div class="border bg-white rounded p-3 xl:w-3/5  sm:w-full">
     <h1 class="text-xl font-bold mb-4">Analyse de l'équipe</h1>
 
     <div class=" flex p-1 mb-4">
@@ -10,7 +10,7 @@
     </div>
 
 
-    <div class="flex">
+    <div class="md:flex">
 
       <div class="w-1/2">
         <h1 class="text-xl font-bold">Faible contre :</h1>

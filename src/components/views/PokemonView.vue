@@ -1,10 +1,10 @@
 <template class="font-serif">
 
-  <div class="grid grid-cols-5">
+  <div class="grid xl:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 grid-cols-2">
     <PokemonCard v-for="(pokemon, index) in pokemons" :key="index"
                  :style="{cursor: selectedCursor}"
                  :pokemon-data="pokemon"
-                 :index="('00' + (index +1)).slice(-3)"
+                 :index="parseInt(('00' + (index +1)).slice(-3))"
                  @show-details="showDetails"
                  @mouseover="cardHover"
     ></PokemonCard>

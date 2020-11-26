@@ -1,16 +1,17 @@
 <template>
-  <div class="border border-black m-2 px-4 py-2 rounded-lg shadow-xl bg-gray-100">
+  <div class="border border-black m-1 px-1 py-2 rounded-lg shadow-xl bg-gray-100">
     <div class="flex justify-center" @click="$emit('show-details' , pokemon, index)">
-      <img class="w-auto h-48" loading="lazy" :src="require(`@/assets/sprites/${pokemon.name}.gif`)" alt="">
+      <img class="w-auto xl:h-48 lg:h-36 md:h-24 sm:h-24 xs:h-16  h-16" loading="lazy" :src="require(`@/assets/sprites/${pokemon.name}.gif`)" alt="">
     </div>
-    <div class=" flex justify-between ">
-      <span class="text-lg font-semibold">
+    <div class=" flex justify-between items-center ">
+      <span class="xl:text-base md:text-xs lg:text-sm  font-semibold">
        {{index}} {{ pokemon.name }}
       </span>
       <type-component :types="types"></type-component>
     </div>
+
     <div class="flex justify-center">
-      <base-button text="Sélectionner" :isFull="isFull" @click.prevent="addToSelection"
+      <base-button text="Sélectionner" @click.prevent="addToSelection"
                    class="bg-blue-400"></base-button>
     </div>
   </div>

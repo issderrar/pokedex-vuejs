@@ -69,7 +69,14 @@
       </div>
     </div>
 
-
+    <div id="debug-bar" class="text-sm flex justify-around bg-purple-500">
+      <span class="xl:text-white text-black">xl</span>
+      <span class="lg:text-white text-black">lg</span>
+      <span class="md:text-white text-black">md</span>
+      <span class="sm:text-white text-black">sm</span>
+      <span class="xs:text-white text-black">xs</span>
+      <span class="text-white xs:text-black sm:text-black md:text-black lg:text-black xl:text-black">all</span>
+    </div>
   </nav>
 </template>
 
