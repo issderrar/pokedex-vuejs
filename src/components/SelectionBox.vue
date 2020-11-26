@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center ">
-  <div class="bg-white rounded-2xl xl:w-3/5 md:w-4/5 sm:w-full p-3">
+  <div class="bg-white rounded-2xl xl:w-3/5 md:w-4/5 sm:w-full w-full p-3">
     <h1 class="text-4xl md:text-xl lg:text-2xl text-center">Votre équipe ({{ selection.length }})</h1>
       <selection-display
           :selection="selection"
