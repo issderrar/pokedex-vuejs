@@ -1,7 +1,7 @@
 <template>
   <div class="border border-black m-2 px-4 py-2 rounded-lg shadow-xl bg-gray-100">
     <div class="flex justify-center" @click="$emit('show-details' , pokemon, index)">
-      <img class="w-auto h-48" :src="require(`@/assets/sprites/${pokemon.name}.gif`)" alt="">
+      <img class="w-auto h-48" loading="lazy" :src="require(`@/assets/sprites/${pokemon.name}.gif`)" alt="">
     </div>
     <div class=" flex justify-between ">
       <span class="text-lg font-semibold">
