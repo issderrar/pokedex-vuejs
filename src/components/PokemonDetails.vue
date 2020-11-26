@@ -1,10 +1,10 @@
 <template>
   <!-- Fond noir -->
   <div class=" bg-black fixed  inset-0 bg-opacity-50 flex justify-center items-center">
-    <div v-if="pokemon" class=" border border-black m-2 px-4 py-2 rounded-lg shadow-xl bg-gray-100 w-1/4 ">
+    <div v-if="pokemon" class=" border border-black m-2 px-4 py-2 rounded-lg shadow-xl bg-gray-100 xl:w-1/4 md:w-3/5 ">
       <div class="flex justify-between">
       <button @click="$emit('hide-details')"
-              class="-mr-1 flex p-2 rounded-md hover:bg-indigo-800 bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-white sm:-mr-2">
+              class="-mr-1 flex p-2 rounded-md hover:bg-red-800 bg-red-500 focus:outline-none focus:ring-2 focus:ring-white sm:-mr-2">
         <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
              stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
@@ -28,7 +28,7 @@
       </div>
 
       <div class="flex justify-end my-2">
-        <div class="border border-black rounded px-4 w-2/5">
+        <div class="border border-red-500 rounded px-4 w-2/5">
           <div class="flex justify-between"><span>Height : </span><span>{{ pokemon.height }} m</span></div>
           <hr>
           <div class="flex justify-between"><span>Weight : </span><span>{{ pokemon.weight }} kg</span></div>

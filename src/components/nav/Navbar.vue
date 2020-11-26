@@ -2,7 +2,7 @@
   <nav class="bg-gray-800 sticky top-0 w-full">
     <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
       <div class="relative flex items-center justify-between h-16">
-        <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+        <div class="absolute inset-y-0 left-0 flex items-center hidden">
           <!-- Mobile menu button-->
           <button
               class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
@@ -31,10 +31,10 @@
           </button>
         </div>
         <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-          <div class="flex-shrink-0 flex items-center">
+          <div class="flex-shrink-0 justify-self-start">
             <span class="text-white">Pokedex</span>
           </div>
-          <div class="hidden sm:block sm:ml-6">
+          <div class="block sm:ml-6">
             <div class="flex space-x-4">
               <router-link to="/"
                            class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700">
@@ -69,14 +69,14 @@
       </div>
     </div>
 
-    <div id="debug-bar" class="text-sm flex justify-around bg-purple-500">
+<!--    <div id="debug-bar" class="text-sm flex justify-around bg-purple-500">
       <span class="xl:text-white text-black">xl</span>
       <span class="lg:text-white text-black">lg</span>
       <span class="md:text-white text-black">md</span>
       <span class="sm:text-white text-black">sm</span>
       <span class="xs:text-white text-black">xs</span>
       <span class="text-white xs:text-black sm:text-black md:text-black lg:text-black xl:text-black">all</span>
-    </div>
+    </div>-->
   </nav>
 </template>
 
