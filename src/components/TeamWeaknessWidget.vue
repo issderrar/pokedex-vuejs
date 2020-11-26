@@ -1,5 +1,5 @@
 <template>
-  <div class="border bg-white rounded p-3 xl:w-3/5  sm:w-full">
+  <div class="border bg-white rounded p-3 xl:w-3/5  sm:w-full w-full">
     <h1 class="text-xl font-bold mb-4">Analyse de l'équipe</h1>
 
     <div class=" flex flex-wrap  p-1 mb-4 ">
