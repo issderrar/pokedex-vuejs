@@ -37,7 +37,7 @@
           <div class="block sm:ml-6">
             <div class="flex space-x-4">
               <router-link to="/"
-                           class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700">
+                           class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700" @click="closeDropdown()">
                 Squad Tester
               </router-link>
               <router-link to="/team-creation"
@@ -93,6 +93,7 @@ export default {
   },
   methods: {
     toggleDropdown() {
+      console.log("proc")
       if (this.isOpen === true) {
         this.$store.dispatch({
           type: 'closeDropdown'
@@ -103,6 +104,11 @@ export default {
         })
 
       }
+    },
+    closeDropdown() {
+        this.$store.dispatch({
+          type: 'closeDropdown'
+        })
     },
   }
 }
