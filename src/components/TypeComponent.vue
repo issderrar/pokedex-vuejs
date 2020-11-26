@@ -1,6 +1,6 @@
 <template>
   <div class="flex ">
-    <span v-for="(type,index) in computedTypes" :key="index" :class="type.toLowerCase()" class="text-xs md:text-xs lg:text-sm p-1.5 rounded-xl font-extrabold ml-0.5">{{ type.toUpperCase() }}</span>
+    <span v-for="(type,index) in computedTypes" :key="index" :class="type.toLowerCase()" class="text-xs md:text-xs lg:text-sm p-0.5 sm:p-1.5  rounded-xl font-extrabold ml-0.5">{{ type.toUpperCase() }}</span>
   </div>
 </template>
 

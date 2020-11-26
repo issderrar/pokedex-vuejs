@@ -1,5 +1,5 @@
 <template>
-    <div class="grid grid-cols-6">
+    <div class="grid grid-cols-3 xs:grid-cols-6 sm:grid-cols-6">
       <pokemon-thumbnail v-for="(pokemon,index) in selection" :key="index" :pokemon="pokemon"
       @remove-pokemon="removePokemon(index)"
       />

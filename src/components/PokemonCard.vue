@@ -4,7 +4,7 @@
       <img class="w-auto xl:h-48 lg:h-36 md:h-24 sm:h-24 xs:h-16  h-16" loading="lazy" :src="require(`@/assets/sprites/${pokemon.name}.gif`)" alt="">
     </div>
     <div class=" flex justify-between items-center ">
-      <span class="xl:text-base md:text-xs lg:text-sm  font-semibold">
+      <span class="xl:text-base md:text-xs lg:text-sm text-xs font-semibold">
        {{index}} {{ pokemon.name }}
       </span>
       <type-component :types="types"></type-component>

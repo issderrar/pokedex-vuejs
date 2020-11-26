@@ -2,8 +2,8 @@
   <div class="border bg-white rounded p-3 xl:w-3/5  sm:w-full">
     <h1 class="text-xl font-bold mb-4">Analyse de l'équipe</h1>
 
-    <div class=" flex p-1 mb-4">
-      <div class="flex" v-for="(number, type) in teamTypes" :key="type">
+    <div class=" flex flex-wrap  p-1 mb-4 ">
+      <div class="flex items-center" v-for="(number, type) in teamTypes" :key="type">
         <type-component :types="[type]"></type-component>
         <span class="p-1.5 font-semibold">x {{ number }}</span>
       </div>

@@ -9,7 +9,7 @@
     </button>
     <div class="px-2 py-2 ">
       <div class="flex justify-center">
-        <img class="w-auto xl:h-20 md:h-12 sm:h-8 h-8 " :src="require(`@/assets/sprites/${pokemon.name}.gif`)" alt="">
+        <img class="w-auto xl:h-20 md:h-12 sm:h-8 h-10 " :src="require(`@/assets/sprites/${pokemon.name}.gif`)" alt="">
       </div>
       <div class=" text-center mt-2">
       <span class="xl:text-base md:text-sm sm:text-xs text-xs font-semibold ">
